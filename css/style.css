@@ -1,0 +1,405 @@
+/* css on all page */
+* {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+/* phone icon */
+.material-symbols-outlined {
+  vertical-align: -5px;
+  margin-right: 5px;
+}
+
+/* nav bar and list */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: beige;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+}
+
+/* section1 */
+.section1 {
+  height: 100vh;
+  display: block;
+  position: relative;
+}
+
+.section1::after {
+  content: "";
+  background-image: url("/images/1858721.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+.background1 {
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+.text1 {
+  text-align: center;
+  margin-top: 20vh;
+  font-size: x-large;
+  color: beige;
+}
+.text1 img {
+  width: 40vh;
+}
+.button {
+
+  background-color: darkorange;
+  border: none;
+  color: beige;
+  padding: 10px 50px;
+  text-align: center;
+  margin-top: 30px;
+
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+}
+
+hr {
+  border: 1px solid lightblue;
+}
+
+.section2 {
+  height: 100vh;
+  color: darkslategray;
+}
+.text2 {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 20vh;
+}
+.cards1 {
+  margin-top: 20vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cards1 .col30 {
+  padding: 50px;
+  height: 45vh;
+}
+
+.col30 span {
+  color: darkorange;
+  font-size: 45px;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 10vh 2px;
+  background-color: lightslategray;
+  padding: 5px;
+  border: 5px double white;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  display: inline-block;
+}
+
+.dot:hover {
+  background-color: darkorange;
+}
+
+.section3 hr {
+  border: 1px solid lightgray;
+  width: 70%;
+}
+.section3 {
+  height: 170vh;
+  color: darkslategray;
+}
+.text3 {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 15vh;
+}
+.text3 span {
+  font-size: 30px;
+  vertical-align: -10px;
+}
+.cards2 {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cards2 img {
+  width: 33vh;
+  margin-top: 30px;
+}
+.cards2 p {
+  font-size: 20px;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 5px;
+  margin-top: 60vh;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  float: right;
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  float: left;
+}
+
+.section4 {
+  height: 120vh;
+  color: darkslategray;
+}
+.section4 hr {
+  border: 1px solid lightgray;
+  width: 70%;
+
+}
+.text4 {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 15vh;
+}
+
+.cards3{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    
+}
+
+div.polaroid {
+    width: 20%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+    display: inline-block;
+    margin-left: 20px;
+    
+  }
+  .container2 {
+    padding-left: 10px;
+    height: 145px;
+  }
+  .container2 p,.container2 h4{
+margin: 10px 3px; 
+ }
+ .col25edited p,.col25edited h4{
+    margin: 10px 10px; 
+    
+     }
+     .col25 .house{
+        margin-top: 20px;
+        margin-left: 60px;
+        height: 150px;
+        width: 80%;
+     }
+     .col25 .mickey{
+        margin-top: 20px;
+        margin-left: 38px;
+        height: 150px;
+        width: 80%;
+     }
+     .button2{
+        margin-left: auto;
+        margin-right: auto;
+        
+        width: 20%;
+     }
+     .section5 {
+        height: 100vh;
+        color: darkslategray;
+      }
+      .section5 hr {
+        border: 1px solid lightgray;
+        width: 70%;
+      }
+      .text5 {
+        
+        text-align: center;
+        margin-top: 15vh;
+        
+      }
+      .col60 {
+        margin-top: 50px;
+        margin-left: 20px;
+        
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+}
+.col60 img{
+    margin: 20px;
+width: 20%;
+float: left ;
+
+}
+.cards4{
+    height: 50vh;
+
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.section6{
+    margin-top: 20vh;
+    height: 100vh;
+    color: darkslategray;
+
+}
+.section6 hr {
+    border: 1px solid lightgray;
+    width: 70%;
+}
+
+.text6{
+    font-size: xx-large;
+    width: 100%;
+ color: beige;
+
+line-height: 20vh;
+ height: 20vh;
+
+
+
+}
+.button3 {
+    margin-top: 8vh;
+    background-color: darkorange;
+    border: 1px solid beige;
+    border-radius: 100px;
+    color: white;
+    padding: 10px 50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-right:  20vh;
+float: right;
+    cursor: pointer;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+
+/* layout */
+.container {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.col30 {
+  width: 33.3%;
+  float: left;
+}
+.col50 {
+  width: 50%;
+  float: left;
+}
+.col25{
+    width: 25%;
+  float: left;
+}
+.col25edited {
+  width: 22.8%;
+  height: 150px;
+  float: left;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+
+}
+.col60 {
+
+  float: left;
+}
+
+
+
+
+
+
+
+footer{
+    
+    margin-top: 30vh;
+    margin-left: 10vh;
+}
+.footer_container strong{
+    font-weight: bold;
+
+}
+.footer_container .container3{
+    width: 25%;
+    float: left;
+    
+}
+.footer_container ul{
+    list-style: none;
+    margin-top: 20px;
+    margin-left: 5px;
+    padding: 0;
+}
+.footer_container ul li {
+    width: 160px;
+    float: left;
+}
+.icons{
+    margin-top: 10px;
+
+}
+.icons img{
+    margin-left: 5px;
+    width: 25px;
+}
+
+.container .copyrights{
+    text-align: center;
+    font-size: 12px;
+}
+
+.footerhr{
+  margin-top: 10vh;
+}
